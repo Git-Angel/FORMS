@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+</head>
+<body>
+    <form action="">
+<!--Type text is for a text input while name is an attriute that helps distinguise your columns-->
+        <input type="text" size="65">
+   <!--Type email is for a email and maxlength and minlength can be used to set a maximum and minimun number of character-->     
+        <input type="email" name="email" id="email" name="email">
+        <input type="button" value="">
+        <input type="checkbox" name="" id="">
+        <input type="color" name="" id="">
+        <input type="password" name="" id="" maxlength="8">
+        <input type="date" name="" id="" minlength="20">
+        <input type="datetime" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="file" name="" id="">
+        <input type="image" src="" alt="">
+        <input type="tel" name="" id="">
+        <input type="search" name="" id="">
+        <input type="number" name="" id="" maxlength="5">
+        <input type="radio" name="" id="">
+        <input type="time" name="" id="">
+        <input type="week" name="" id="">
+        <input type="url" name="" id="">
+        <input type="range" name="" id="">
+        <input type="text" name = "FirstName">
+    </form>
+    <br>
+    <br>
+    <br>
+<!--Value is a constant data that cannot be edit and it goes 
+with read only attribute and 
+disabled attribute, autofocus calls your attention to a certain control-->
+    <form action="">
+        <label for="UserName">User Name</label>
+        <input type="text" name="" id="UserName" 
+        placeholder="enter your first name" value="Angelina"
+        autofocus readonly disabled>
+        <br> <br>
+        <label for="firstName">First Name</label>
+        <input type="text" name="" id="firstName" placeholder="enter your first name"> <br> <br>
+        <input type="text" name="" id="" maxlength="3"> <br> <br>
+        <!--max and maxlenght not working for number-->
+        <input type="number" name="" id="" max="4"> <br> <br>
+        <input type="number" name="" id="" maxlength="4"> <br> <br>
+        <input type="date" name="" id="" max="2024-07-31"> <br> <br>
+        <!--find out the formate for min and max time -->
+        <input type="datetime" name="" id="" min="06-06"> <br> <br>
+        <!---type file allows you add a single file
+        but the multiple attribute allows multiple adding of files-->
+        <input type="file" name="" id="" multiple> <br><br>
+        <!---required attribute means a field has to be filed before it is submitted-->
+        <input type="text" name="" id="" required> <br> <br>
+        <input type="submit" value="" size="150"> <br> <br>
+
+    </form>
+</body>
+</html>
